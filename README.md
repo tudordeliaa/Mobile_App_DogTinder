@@ -10,4 +10,8 @@ The main functionalities used to develop the application are the following:
 -> view previous conversations
 -> live chat
 -> give feedback to users
+
+#Login / Register
 ![Untitled](https://user-images.githubusercontent.com/77582607/182385673-6a3394a9-8436-4b9d-a564-284aed5c9a83.png)
+
+#Profile
