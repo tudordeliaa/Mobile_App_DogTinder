@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#BED9E9"
+    tools:context=".RegistrationActivity">
+
+    <ImageButton
+        android:id="@+id/backtochoose"
+        android:layout_width="match_parent"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        android:background="#BED9E9"
+        android:layout_height="50dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="330dp"
+        app:cornerRadius="50dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="30dp"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Sign In"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:fontFamily="serif"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/shape"
+        android:hint="@string/email"
+
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="serif"
+        android:layout_width="match_parent"
+        android:background="@drawable/shape"
+        android:layout_height="50dp"
+        android:layout_marginLeft="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/btn_forgot_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BED9E9"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="230dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:padding="5dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textColor="#293241"
+        android:text="Forgot Password?"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="serif"
+        android:text="@string/login2"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:cornerRadius="50dp" />
+
+    <ProgressBar
+        android:id="@+id/preogressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="180dp"
+        android:elevation="10dp"
+        android:visibility="gone"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/prima_pag_img"/>
+
+</LinearLayout>

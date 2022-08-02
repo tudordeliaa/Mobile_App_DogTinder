@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="730dp"
+    android:orientation="vertical"
+    android:background="#BED9E9"
+    android:id="@+id/ln1"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:text="Profile"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginLeft="150dp"
+        android:background="@drawable/ic_baseline_person_24"
+        android:src="@drawable/cocker" />
+
+    <EditText
+        android:id="@+id/Profile_user_name"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginBottom="10sp"
+        android:background="@drawable/shape"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:hint="@string/user_name"
+        android:inputType="textPersonName"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+    <EditText
+        android:id="@+id/dogName"
+        android:layout_height="30dp"
+        android:fontFamily="serif"
+        android:textSize="17dp"
+        android:layout_marginBottom="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:hint="@string/dog_name"
+        android:inputType="textPersonName"/>
+    <EditText
+        android:id="@+id/Profile_dog_age"
+        android:layout_height="30dp"
+        android:fontFamily="serif"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:hint="@string/dog_age"
+        android:layout_marginBottom="10sp"
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/Profile_dog_Breed"
+        android:layout_height="30dp"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:hint="Dog Breed"
+        android:fontFamily="serif"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"
+        android:inputType="text"/>
+    <EditText
+        android:id="@+id/Profile_etcity"
+        android:layout_height="30dp"
+        android:background="@drawable/shape"
+        android:layout_width="match_parent"
+        android:hint="City"
+        android:fontFamily="serif"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="10sp"
+        android:inputType="text"/>
+
+    <EditText
+        android:id="@+id/Profile_Description"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:fontFamily="serif"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:background="@drawable/shape"
+        android:hint="@string/about_you_and_your_dog"
+        android:layout_marginBottom="10sp"
+        android:inputType="text"/>
+
+    <Button
+        android:id="@+id/Profile_Confirm"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="serif"
+        android:text="confirm"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp" />
+
+    <Button
+        android:id="@+id/Profile_Logout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:background="@drawable/custom_button"
+        android:fontFamily="serif"
+        android:layout_marginTop="5dp"
+        android:text="@string/logout"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        app:cornerRadius="8dp" />
+
+    <LinearLayout
+        android:background="#BED9E9"
+        android:layout_width="match_parent"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="137dp"
+            android:textSize="17dp"
+            android:layout_height="wrap_content"
+            android:background="#EE6C4D"
+            android:onClick="goToProfile"
+            android:text="@string/profile"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:background="#EE6C4D"
+            android:onClick="goToMatches"
+            android:textSize="17dp"
+            android:text="Matches"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:background="#EE6C4D"
+            android:onClick="goToChat"
+            android:textSize="17dp"
+            android:text="@string/chat"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

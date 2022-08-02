@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "40944429294",
+    "project_id": "tindercaini",
+    "storage_bucket": "tindercaini.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:40944429294:android:250f2e2a7a9ec1e787abff",
+        "android_client_info": {
+          "package_name": "com.example.licenta_tinder_caini"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "40944429294-crm134br56m6mc4745bdmi7m2ir3207e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.licenta_tinder_caini",
+            "certificate_hash": "65f1ec9aa6e277ff7519fac5bc59f743c16363d9"
+          }
+        },
+        {
+          "client_id": "40944429294-jdushc94nifi1t9586u9pagjmome6p5t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpXboeXdIkysSwhdC20HXpA5LHvY4nnU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "40944429294-jdushc94nifi1t9586u9pagjmome6p5t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

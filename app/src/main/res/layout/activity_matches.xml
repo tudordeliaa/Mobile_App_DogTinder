@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BED9E9"
+    android:id="@+id/ln2"
+    tools:context=".Matches.MatchesActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="@string/chats"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="457dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="10dp"
+        android:fontFamily="serif"
+        android:textSize="17dp"
+        android:textStyle="bold">
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#BED9E9"
+            android:fontFamily="serif"
+            android:scrollbars="vertical"
+            android:textSize="17dp"
+            android:textStyle="bold">
+
+        </androidx.recyclerview.widget.RecyclerView>
+    </androidx.core.widget.NestedScrollView>
+
+
+    <LinearLayout
+        android:background="#BED9E9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:background="#EE6C4D"
+            android:onClick="goToProfile"
+            android:text="@string/profile"
+            android:textSize="17dp"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:background="#EE6C4D"
+            android:onClick="goToMatches"
+            android:textSize="17dp"
+            android:text="Matches"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+        <Button
+            android:layout_width="137dp"
+            android:layout_height="wrap_content"
+            android:background="#EE6C4D"
+            android:onClick="goToChat"
+            android:textSize="17dp"
+            android:text="@string/chat"
+            tools:ignore="MissingConstraints,UsingOnClickInXml" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChooseLoginRegistrationActivity"
+    android:orientation="vertical"
+    android:background="#BED9E9">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        android:fontFamily="cursive"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="Dogs Date"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:text="-Make your dog happy-"/>
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        app:cornerRadius="50dp"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/custom_button"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:text="@string/login"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:fontFamily="serif"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_button"
+        app:cornerRadius="50dp"
+        android:text="@string/register"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:clickable="true"
+        android:focusable="true" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/prima_pag_img"/>
+
+
+
+</LinearLayout>
+
